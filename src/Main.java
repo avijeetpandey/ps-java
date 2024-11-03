@@ -1,10 +1,12 @@
+import ds.Queue;
 import ds.Stack;
 
 public class Main {
     public static void main(String[] args) {
-        Stack<Integer> stack = new Stack<>(10);
-        stack.push(1);
-        stack.push(2);
-        stack.push(3);
+        Queue<Integer> queue = new Queue<>(10);
+        queue.enqueue(21);
+        queue.enqueue(33);
+        System.out.println(queue.peek());
+        System.out.println(queue.dequeue());
     }
 }
