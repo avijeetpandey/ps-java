@@ -21,5 +21,17 @@ public class LinkedList {
             System.out.print(currentNode.data + "->");
             currentNode = currentNode.next;
         }
+        System.out.println();
+    }
+
+    public boolean find(int data) {
+        Node currentNode = head;
+        while(currentNode != null) {
+            if(currentNode.data == data) {
+                return true;
+            }
+            currentNode = currentNode.next;
+        }
+        return false;
     }
 }

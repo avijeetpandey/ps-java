@@ -9,5 +9,7 @@ public class Main {
         list.add(15);
         list.add(16);
         list.print();
+        System.out.println(list.find(14));
+        System.out.println(list.find(30));
     }
 }
