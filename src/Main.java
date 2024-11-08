@@ -1,12 +1,13 @@
-import ds.Queue;
-import ds.Stack;
+import ds.LinkedList;
 
 public class Main {
     public static void main(String[] args) {
-        Queue<Integer> queue = new Queue<>(10);
-        queue.enqueue(21);
-        queue.enqueue(33);
-        System.out.println(queue.peek());
-        System.out.println(queue.dequeue());
+        LinkedList list = new LinkedList();
+        list.add(12);
+        list.add(13);
+        list.add(14);
+        list.add(15);
+        list.add(16);
+        list.print();
     }
 }
