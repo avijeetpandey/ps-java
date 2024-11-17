@@ -3,9 +3,8 @@ package leetcode;
 public class IndexOfFirstOccurence {
     public static void main(String[] args) {
         String hayStack = "leetcode";
-        String needle = "leetc";
+        String needle = "tc";
 
-        int index = hayStack.indexOf(needle);
-        System.out.println(index);
+        System.out.println(hayStack.indexOf(needle));
     }
 }
