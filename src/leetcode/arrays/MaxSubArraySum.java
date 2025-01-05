@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.arrays;
 
 /**
  * Time complexity - O(N)

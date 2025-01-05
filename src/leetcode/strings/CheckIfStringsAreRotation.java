@@ -1,6 +1,5 @@
 package leetcode.strings;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -29,6 +28,6 @@ public class CheckIfStringsAreRotation {
         }
 
         System.out.println(firstMap);
-        System.out.println(secondMap);
+        System.out.println(isRotated);
     }
 }
