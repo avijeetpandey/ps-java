@@ -14,4 +14,14 @@
 - [ ] Treap
 - [ ] Trie
 
+
+## Algorithms 
+
+- Sorting
+  - [x] Bubble Sort
+  - [x] Selection Sort
+  - [ ] Insertion Sort
+  - [ ] Merge Sort
+  - [ ] Heap Sort
+
 Repository to learn data structures and algorithms using Java and snippets for java coursework.
