@@ -10,7 +10,8 @@ Sorting is technique to arrange elements in either ascending or descending order
 
 ### Selection sort
 Selection sort works on a simple philosophy , find the smallest item and swap it with the current element , and do it till every element of the array is processed.
-`Time Complexity` - `O(N^2)`
+
+- `Time Complexity` - `O(N^2)`
 
 ```java
     public static void selectionSort(int[] array) {
