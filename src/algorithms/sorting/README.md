@@ -45,3 +45,23 @@ Selection sort works on a simple philosophy , find the smallest item and swap it
 ```
 
 - Selection sort is only useful for smaller data sets , as it is simple and easy to implement, however due to its time complexity it is not useful for larger data sets.
+
+### Bubble Sort
+Bubble sort algorithm works on the principle that , check the adjacent elements and swap if the element next is smaller than the current element.
+
+- `Time Complexity` - `O(N^2)`
+
+```java
+ public static void bubbleSort(int[] array) {
+        int arrayLength = array.length;
+        for(int i=0; i< arrayLength-1; i++) {
+            for(int j=0; j < arrayLength - i -1 ; j++) {
+                if(array[j] > array[j+1]) {
+                    int temp = array[j];
+                    array[j] = array[j+1];
+                    array[j+1] = temp;
+                }
+            }
+        }
+    }
+```
