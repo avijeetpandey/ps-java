@@ -11,7 +11,7 @@ public class BearAndBigBrother {
 
         int count = 0;
 
-        while(limakWeight <= bobsWeight) {
+        while (limakWeight <= bobsWeight) {
             limakWeight *= 3;
             bobsWeight *= 2;
             count++;

@@ -10,10 +10,10 @@ public class ABAgain {
         while (t > 0) {
             int n = scanner.nextInt();
 
-            int firstDigit = n%10;
-            n = n/10;
+            int firstDigit = n % 10;
+            n = n / 10;
 
-            System.out.println(n+firstDigit);
+            System.out.println(n + firstDigit);
 
             t--;
         }

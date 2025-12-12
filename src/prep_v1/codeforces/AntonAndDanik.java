@@ -11,17 +11,17 @@ public class AntonAndDanik {
         int antonCount = 0;
         int danikCount = 0;
 
-        for(char c : gameState.toCharArray()) {
-            if(c == 'A') {
+        for (char c : gameState.toCharArray()) {
+            if (c == 'A') {
                 antonCount++;
-            } else if(c == 'D') {
+            } else if (c == 'D') {
                 danikCount++;
             }
         }
 
-        if(antonCount > danikCount) {
+        if (antonCount > danikCount) {
             System.out.println("Anton");
-        } else if(danikCount > antonCount) {
+        } else if (danikCount > antonCount) {
             System.out.println("Danik");
         } else {
             System.out.println("Friendship");
