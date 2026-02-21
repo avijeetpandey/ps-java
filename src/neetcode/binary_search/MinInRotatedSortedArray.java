@@ -5,6 +5,7 @@ public class MinInRotatedSortedArray {
     public static int findMin(int[] nums) {
         int left = 0;
         int right = nums.length - 1;
+
         while(left < right) {
             int mid = (int) Math.floor((left+right)/2);
             if(nums[mid] > nums[right]) {
@@ -13,7 +14,6 @@ public class MinInRotatedSortedArray {
                 right = mid;
             }
         }
-
         return nums[right];
     }
 
