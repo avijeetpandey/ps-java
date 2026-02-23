@@ -13,7 +13,7 @@ class Solution {
         if(s.length() != t.length()) return false;
         HashMap<Character, Integer> mapOne = new HashMap<>();
         HashMap<Character, Integer> mapTwo = new HashMap<>();
-
+        
 
         // populating the first map
         for(int i=0; i<s.length(); i++){
