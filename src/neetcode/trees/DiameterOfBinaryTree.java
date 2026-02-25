@@ -3,7 +3,7 @@ package neetcode.trees;
 public class DiameterOfBinaryTree {
     public int diameter(TreeNode root) {
         if(root == null) {
-            return null;
+            return 0;
         }
 
         int leftHeight = heightOfTree(root.left);
