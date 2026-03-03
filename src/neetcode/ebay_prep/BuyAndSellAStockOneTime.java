@@ -1,7 +1,7 @@
 package neetcode.ebay_prep;
 
 public class BuyAndSellAStockOneTime {
-    public int maxProfit(int[] prices) {
+    public static int maxProfit(int[] prices) {
         int left = 0;
         int right = 1;
 
