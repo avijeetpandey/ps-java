@@ -1,18 +1,17 @@
 import data_structures.linked_list.LinkedList;
+import implementations.Queue;
 
 public class Main {
     public static void main(String[] args) {
-        LinkedList list = new LinkedList();
-        list.add(20);
-        list.add(30);
-        list.display();
+        Queue queue = new Queue();
+        queue.add(20);
+        queue.add(30);
+        queue.add(40);
+        System.out.println(queue.peek());
+        queue.display();
 
-        System.out.println(list.size());
+        queue.remove();
 
-        list.remove(20);
-
-        list.display();
-
-        System.out.println(list.size());
+        queue.display();
     }
 }
