@@ -1,4 +1,4 @@
-package implementations;
+package neetcode.algorithms;
 
 import java.util.ArrayList;
 import java.util.HashMap;
