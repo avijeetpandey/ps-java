@@ -33,4 +33,34 @@ public class BinaryTree {
             root.right = node;
         }
     }
+
+    public void displayInOrderTraversal(BinaryTreeNode rootNode) {
+        if(rootNode == null) {
+            return;
+        }
+
+        displayInOrderTraversal(rootNode.left);
+        System.out.println(rootNode.data + " -> ");
+        displayInOrderTraversal(rootNode.right);
+    }
+
+    public void displayPreOrderTraversal(BinaryTreeNode rootNode) {
+        if(rootNode == null) {
+            return;
+        }
+
+        System.out.println(rootNode.data + " ");
+        displayPreOrderTraversal(rootNode.left);
+        displayPreOrderTraversal(rootNode.right);
+    }
+
+    public void displayPostOrderTraversal(BinaryTreeNode rootNode) {
+        if(rootNode == null) {
+            return;
+        }
+
+        displayPostOrderTraversal(rootNode.left);
+        displayPostOrderTraversal(rootNode.right);
+        System.out.println(rootNode.data + " ");
+    }
 }
